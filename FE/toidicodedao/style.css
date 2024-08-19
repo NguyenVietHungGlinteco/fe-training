@@ -1,0 +1,237 @@
+* {
+    /* margin: 0; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+}
+
+#main {
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+#top {
+    background-color: yellow;
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+#top-left,
+#top-center,
+#top-right {
+    display: flex;
+    width: 33%;
+}
+
+#top-center {
+    text-align: center;
+    justify-content: center;
+}
+
+#top-right {
+    justify-content: flex-end;
+}
+
+
+.circle {
+    display: flex;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    margin: 5px;
+    justify-content: center;
+}
+
+
+#icon {
+    align-items: center;
+}
+
+.search {
+    border: 1px solid #999999;
+    border-radius: 20px;
+    padding: 5px 40px;
+    margin: 5px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999999;
+    margin: 5px;
+}
+
+.avatar {
+    border: 2px solid #999999;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#mid {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#cover {
+    background-color: yellow;
+    margin-top: 30px;
+    width: auto;
+    display: flex;
+    max-width: 80%;
+    border: 1px solid #999999;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 8%;
+}
+
+.star {
+    display: block;
+    width: 16%;
+
+}
+
+.main-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+}
+
+#main-avatar {
+    width: 12%;
+    height: 75%;
+    left: 5%;
+    top: 80%;
+}
+
+#main-avatar>img {
+    width: 100%;
+    height: auto;
+}
+
+
+.name {
+    left: 20%;
+    top: 110%;
+    display: block;
+    text-align: left;
+}
+
+#tag-name {
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 5%;
+}
+
+#mess {
+    position: absolute;
+    right: 5%;
+    top: 110%;
+
+}
+
+#send-message {
+    display: flex;
+    border: solid 1px #999999;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    padding: 2px 20px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+#mess-logo {
+    margin-top: 2px;
+    padding: 0 10px;
+    width: 15px;
+    height: 15px;
+}
+
+#mess-comment {
+    margin-top: 5px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+hr.dividing-line {
+    border: none;
+    border-top: 1px solid #ccc;
+    height: 1px;
+    background: #999999;
+    width: 100%;
+    margin: 0;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#bottom-content {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#bottom-left {
+    display: flex;
+    justify-content: left;
+
+}
+
+.category {
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+#posts {
+    color: aqua;
+}
+
+.dropdown-icon {
+    padding: 0 5px;
+}
+
+#bottom-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.bottom-right-element {
+    border: solid 1px #999999;
+    border-radius: 7px;
+    display: flex;
+    height: 25px;
+    background-color: yellow;
+    margin: 5px;
+}
+
+#like {
+    color: rgba(39, 151, 245, 0.8);
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#mark {
+    width: 40px;
+    justify-content: center;
+}
+
+#control {
+    width: 40px;
+    justify-content: center;
+}
